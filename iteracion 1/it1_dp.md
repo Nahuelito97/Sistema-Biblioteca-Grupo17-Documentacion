@@ -4,15 +4,27 @@
 
 ![Diagrama](/figuras/diagrama.png)
 
+---
+
 ## Backlog de la iteracion
+
+**imagen 1**
 
 ![Backlog](/figuras/sprinthistorias.png)
 
+**imagen 2**
+
 ![Backlog](/figuras/backlog.png)
+
+**imagen 3**
 
 ![Historias](/figuras/hu1-backlog.png)
 
+**imagen 4**
+
 ![Historias](/figuras/explorarcatalogo.png)
+
+---
 
 ## Tareas:
 
