@@ -10,7 +10,7 @@
 
 **imagen 1**
 
-![Backlog](/figuras/sprinthistorias.png)
+![Sprinthistorias](/figuras/sprinthistorias.png)
 
 **imagen 2**
 
@@ -18,11 +18,11 @@
 
 **imagen 3**
 
-![Historias](/figuras/hu1-backlog.png)
+![Hu1](/figuras/hu1-backlog.png)
 
 **imagen 4**
 
-![Historias](/figuras/explorarcatalogo.png)
+![explorarcatalogo](/figuras/explorarcatalogo.png)
 
 ---
 
