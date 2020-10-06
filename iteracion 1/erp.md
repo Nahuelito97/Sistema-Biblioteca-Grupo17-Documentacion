@@ -84,7 +84,7 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
 ---
 
-## H2_Explorar Catálogo
+## HU2_Explorar Catálogo
 
 ### Actores: Administrador
 

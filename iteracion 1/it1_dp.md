@@ -1,7 +1,24 @@
-El Documento de diseño y planificación debe contener los siguientes apartados:
+# Documento de diseño y planificación
 
-- **Diseño orientado a objetos**: Un diagrama de clases UML que refleja el "modelo" solo para esta iteración.
+## Diseño orientado a objetos
 
-- **Backlog de iteración**: Enumeren las Historias de usuario que implementarán en esta iteración.
+![Diagrama](/figuras/diagrama.png)
 
-- **Tareas**: Una lista tentativa de lo que se debe hacer para completar con éxito las historias de usuario a implementar en la iteración.
+## Backlog de la iteracion
+
+![Backlog](/figuras/sprinthistorias.png)
+
+![Backlog](/figuras/backlog.png)
+
+![Historias](/figuras/hu1-backlog.png)
+
+![Historias](/figuras/explorarcatalogo.png)
+
+## Tareas:
+
+- Para poder cargar los libros al sistema, debo ser usuario administarador, tener el libro en formato fisico.
+- tener una imagen del libro.
+- tener el libro en formato pdf si asi lo quisera.
+- los catalogos deben de estar creados.
+- en catalogos podremos ver una lista de libros dispobibles ordenados por los distintos generos que hay.
+- los libros deben de estar cargados previamente en el sistema.
