@@ -36,7 +36,21 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
 **Primera Interfaz**
 
+![Inicio Sesion](/figuras/sesion.jpg)
+
 **Segunda Interfaz**
+
+    en esta vista podremos cargar la informacion referente a cada libro.
+
+![Nuevo Libro](/figuras/nuevolibro.jpg)
+
+---
+
+**Tercera Interfaz**
+
+    en esta vista podemos ver los catalogos que tenemos creados y realizar operaciones en ellos.
+
+![Catalogo](/figuras/catalogo.jpg)
 
 ---
 
