@@ -106,11 +106,7 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
 ## Arquitectura
 
-- Postgresql o MySQL
 - Visual Studio Code
-- Java lenguaje a usar para codificar el servidor
-- Javalin
-- Jackson
 - git hub
 - Html+Css+ JavaScript
 - postman
