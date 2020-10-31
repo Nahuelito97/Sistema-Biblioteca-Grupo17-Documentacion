@@ -60,9 +60,7 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
 ### Actores del Sistema.
 
-1. Usuario: el rol de usuario abarca las funciones básicas del sistema de administracion de la biblioteca, preguntar cuales son los libros mas leidos y mas llevados, poder alquilarlos.
-
-2. Administrador: el rol de administrador se encarga de la parametrización del sistema (ABM de libros, catalogos, control de usuarios, creacion de nuevos usuarios, nuevos administradores morosos y géneros).
+1. Administrador: el rol de administrador se encarga de la parametrización del sistema (ABM de libros, catalogos, control de usuarios, creacion de nuevos usuarios, nuevos administradores morosos y géneros).
 
 ---
 
@@ -108,7 +106,9 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
 - Visual Studio Code
 - git hub
-- Html+Css+ JavaScript
+- Html + Css + JavaScript
 - postman
 - marckdow, para docuemtacion del proyecto
 - Bostrap
+- Laravel como frameworck de desarrollo
+- php como lenguaje de desarrollo
