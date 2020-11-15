@@ -88,7 +88,23 @@ este modelo de dominio esta sujeto a cambios.
 
 
 ---
+## Historias de usuarios terminadas 
 
+
+![](/figuras/Hu3-TERMINADA.jpg)
+
+![](/figuras/Hu4-TERMINADA.jpg)
+
+![](/figuras/Hu5-TERMINADA.jpg)
+
+**Terminadas y en progreso**
+
+![](/figuras/backlog%20it2-progresopng.jpg)
+
+
+
+
+---
 ## Lista de Tares que se deben de cumplir para poder relizar las operaciones
 
 
