@@ -4,7 +4,7 @@
 
 este modelo de dominio esta sujeto a cambios.
 
-![Diagrama](/figuras/MD.png)
+![Diagrama](/figuras/Modelo%20de%20Dominio%20Biblioteca2.vpd.png)
 ---
 
 ## Backlog de la iteracion
