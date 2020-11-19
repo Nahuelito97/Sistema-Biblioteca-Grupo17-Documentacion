@@ -42,7 +42,7 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
     en esta vista podremos cargar la informacion referente a cada libro.
 
-![Nuevo Libro](/FIGURAS/crear1.png)
+![Nuevo Libro](/figuras/crear1.png)
 
 ![Nuevo Libro](/figuras/crear2.png)
 ---
