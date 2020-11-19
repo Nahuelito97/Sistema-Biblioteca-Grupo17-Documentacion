@@ -36,14 +36,15 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
 **Primera Interfaz**
 
-![Inicio Sesion](/figuras/sesion.jpg)
+![Inicio Sesion](/figuras/LOGIN.png)
 
 **Segunda Interfaz**
 
     en esta vista podremos cargar la informacion referente a cada libro.
 
-![Nuevo Libro](/figuras/nuevolibro.jpg)
+![Nuevo Libro](/FIGURAS/crear1.png)
 
+![Nuevo Libro](/figuras/crear2.png)
 ---
 
 **Tercera Interfaz**
