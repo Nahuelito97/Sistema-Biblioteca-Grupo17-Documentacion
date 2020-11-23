@@ -87,7 +87,7 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
 ---
 
-**2da Hieración**
+**2da Hiteración**
 
 ## HU3_Registrar Clientes.
 
