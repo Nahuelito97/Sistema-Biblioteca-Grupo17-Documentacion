@@ -2,7 +2,7 @@
 
 ## Diseño orientado a objetos
 
-![Diagrama](/figuras/diagrama.png)
+![Diagrama](/figuras/diagrama.jpg)
 
 ---
 
@@ -10,27 +10,27 @@
 
 **imagen 1**
 
-![Sprinthistorias](/figuras/sprinthistorias.png)
+![Sprinthistorias](/figuras/sprinthistorias.jpg)
 
 **imagen 2**
 
-![Backlog](/figuras/backlog.png)
+![Backlog](/figuras/backlog.JPg)
 
 **imagen 3**
 
-![Hu1](/figuras/hu1-backlog.png)
+![Hu1](/figuras/hu1-backlog.JPg)
 
 **imagen 4**
 
-![explorarcatalogo](/figuras/explorarcatalogo.png)
+![](/figuras/explorar%20catalogo.jpg)
 
 ---
 
 ## Tareas:
 
+- Para poder realizar todas estas actividades, es necesario tener la Base de Datos creada y en funcionamiento.
 - Para poder cargar los libros al sistema, debo ser usuario administarador, tener el libro en formato fisico.
 - tener una imagen del libro.
-- tener el libro en formato pdf si asi lo quisera.
 - los catalogos deben de estar creados.
 - en catalogos podremos ver una lista de libros dispobibles ordenados por los distintos generos que hay.
-- los libros deben de estar cargados previamente en el sistema.
+- Para explorar el catálogo los libros deben de estar cargados previamente en el sistema.

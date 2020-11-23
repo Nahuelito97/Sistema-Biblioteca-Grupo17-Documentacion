@@ -1,12 +1,72 @@
+# Sistema Libreria B-Genius
+
+---
+
+## Grupo
+
+    1.Wagner Nahuel
+
+---
+
+## Visión
+
+Desarrollaremos un sistema que permita a la biblioteca administrar la misma, recomendar libros, que permita al administrador poder generar nuevos usuarios, elminarlos, crear catalogos, realizar un alquiler de los libros que mas le agraden a los clientes, el administrador podra generar reportes.
+
+---
+
+
+## Lista de características
+
+- El sistema debera permitir cargar libors.
+- Clasificación de los libros según un género.
+- Explorar catálogo.
+- El sistema debera permitir asignar un estado a un libro.
+- El sistema debera permitir asignar una categoria a un libro.
+- El sistema debe de permitir registrar clientes.
+- Recomendar libros a otros usuarios.
+- Alquileres de libros segun los gustos de los usuarios.
+- El sistema deberá permitir modificar los datos de un Libro.
+- El sistema deberá permitir modificar los datos de un Cliente.
+- El sistema deberá permitir modificar los datos de una Categoria.
+
+---
+
+## Análisis de dominio
+
+La aplicación está dedicada en un contexto de administracion de todos los apectos de la biblioteca, asi mismo poder ralizar recomendaciones de libros, poder recomedar libros a otros usuarios.
+
+---
+
+## Bocetos interfaz gráfica
+
+**Primera Interfaz**
+
+![Inicio Sesion](/figuras/LOGIN.png)
+
+**Segunda Interfaz**
+
+    en esta vista podremos cargar la informacion referente a cada libro.
+
+![Nuevo Libro](/figuras/crear1.png)
+
+![Nuevo Libro](/figuras/crear2.png)
+---
+
+**Tercera Interfaz**
+
+    en esta vista podemos ver los catalogos que tenemos creados y realizar operaciones en ellos.
+
+![Catalogo](/figuras/catalogo.jpg)
+
+---
+
 ## Historias de usuario
 
 ---
 
 ### Actores del Sistema.
 
-1. Usuario: el rol de usuario abarca las funciones básicas del sistema de administracion de la biblioteca, preguntar cuales son los libros mas leidos y mas llevados, poder alquilarlos.
-
-2. Administrador: el rol de administrador se encarga de la parametrización del sistema (ABM de libros, catalogos, control de usuarios, creacion de nuevos usuarios, nuevos administradores morosos y géneros).
+1. Administrador: el rol de administrador se encarga de la parametrización del sistema (ABM de libros, catalogos, control de usuarios, creacion de nuevos usuarios, nuevos administradores morosos y géneros).
 
 ---
 
@@ -48,9 +108,7 @@
 
 ---
 
----
-
-# HISTORIAS DE USUARIO NUEVAS A AGREGAR AL SISTEMA.
+**2da Hieración**
 
 ## HU3_Registrar Clientes.
 
@@ -108,5 +166,43 @@
 - De completarse de manera exitosa la operacion, el sistema debe de mostrar un mensaje.
 - El libro debe de estar cargado en el sistema, estar diponible.
 - El cliente que quiera alquilar este libro debe de estar registado, no debe de tener deudas o entregas de libros pendientes.   
-- Solo se permitiran dos alquileres de ibros por cliente.
-- La informacion del usuario debe de estar completa para poder subirse, en caso contrario, se debe de mostrar un mensaje, y cancelar la operacion.
+- Solo se permitiran 2 alquileres de libros por cliente.
+
+
+
+---
+
+## Arquitectura
+
+- Editor de Código: Visual Studio Code/Atom
+- Versionado: GitHub
+- Otras herramientas: Boostrap, Html, Css, JavaScript
+- Documentación: Markdown
+- Frameworck: Laravel/Version 5.8
+- Lenguaje: PHP
+- Arquitectura: Cliente/Servidor.
+
+---
+## Bocetos de interfaces de usuarios 
+
+![](/figuras/LOGIN.png)
+
+![](/figuras/home.png)
+
+![](/figuras/crear1.png)
+
+![](/figuras/crear2.png)
+
+![](/figuras/Lista.png)
+
+![](/figuras/clientes1.png)
+
+![](/figuras/clientes2.png)
+
+![](/figuras/categorias1.png)
+
+![](/figuras/categorias2.png)
+
+![](/figuras/prestamo.png)
+
+![](/figuras/prestamoss.png)
