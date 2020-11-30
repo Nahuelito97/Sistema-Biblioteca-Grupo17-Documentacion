@@ -1,8 +1,6 @@
 # Documento de diseño y planificación
 
-## Diseño orientado a objetos de la priemra iteracion
-
-este modelo de dominio esta sujeto a cambios.
+## Diseño orientado a objetos
 
 ![Diagrama](/figuras/Modelo%20de%20Dominio%20Biblioteca3.vpd.png)
 ---

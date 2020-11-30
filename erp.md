@@ -151,6 +151,26 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
 ---
 
+## HU6_Realizar filtros por Estados y Categorias.
+
+### Actores Administrador
+
+**Objetivo** Realizar la operacion de filtrado por categorias y estados de uno o varios libros
+
+**como**: usuario administrador del sistema.
+
+**quiero**: quiero poder filtrar libros.
+
+**para**: poder tener un libro filtrado por estado y categoria
+
+### Criterios de Aceptacion
+
+- De completarse de manera exitosa la operacion, el sistema debe de mostrar un mensaje.
+- El libro debe de estar cargado en el sistema, estar diponible.
+- La categoria debe de estar creda y asociada a un libro.
+- El estado debe de estar creada y asociado a un libro.
+
+---
 ## Arquitectura
 
 - Editor de Código: Visual Studio Code/Atom
