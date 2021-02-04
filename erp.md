@@ -4,13 +4,13 @@
 
 ## Grupo
 
-    1.Wagner Nahuel
+    17. Wagner Nahuel.
 
 ---
 
 ## Visión
 
-Desarrollaremos un sistema que permita a la biblioteca administrar la misma, recomendar libros, que permita al administrador poder generar nuevos usuarios, elminarlos, crear catalogos, realizar un alquiler de los libros que mas le agraden a los clientes, el administrador podra generar reportes.
+Desarrollaremos un sistema que permita a la biblioteca administrar la misma, que permita al administrador poder generar nuevos usuarios, elminarlos, crear catálogos, realizar prestamos de los libros que mas le agraden a los clientes.
 
 ---
 
@@ -18,25 +18,26 @@ Desarrollaremos un sistema que permita a la biblioteca administrar la misma, rec
 ## Lista de características
 
 - El sistema debera permitir cargar libors.
-- Clasificación de los libros según un género.
+- El sistema debera permitir filtar los libros por categorias y por estados.
 - Explorar catálogo.
 - El sistema debera permitir asignar un estado a un libro.
 - El sistema debera permitir asignar una categoria a un libro.
 - El sistema debe de permitir registrar clientes.
-- Recomendar libros a otros usuarios.
-- Alquileres de libros segun los gustos de los usuarios.
-- El sistema deberá permitir modificar los datos de un Libro.
+- Prestamos de libros según los gustos de los usuarios.
 - El sistema deberá permitir modificar los datos de un Cliente.
-- El sistema deberá permitir modificar los datos de una Categoria.
+- El sistema debera permitir buscar libros en la sección de libros.
+- El sistema debera permitir buscar clientes en la sección de clientes.
 
 ---
 
 ## Análisis de dominio
 
-La aplicación está dedicada en un contexto de administracion de todos los apectos de la biblioteca, asi mismo poder ralizar recomendaciones de libros, poder recomedar libros a otros usuarios.
+La aplicación está diseñada en un contexto de, administracion para una biblioteca, asi mismo poder ralizar prestaos de libros.
 
 ---
 
+
+# Sección del Planteamiento del sistema B-Genius.
 
 
 ## Historias de usuario
@@ -45,7 +46,7 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
 ### Actores del Sistema.
 
-1. Administrador: el rol de administrador se encarga de la parametrización del sistema (ABM de libros, catalogos, control de usuarios, creacion de nuevos usuarios, nuevos administradores morosos y géneros).
+1. Administrador: el rol de administrador se encarga de la parametrización del sistema (ABM de libros, categorias, control de usuarios, creación de nuevos usuarios).
 
 ---
 
@@ -61,8 +62,7 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
 **Criterios de aceptacion**
 
-- De completarse de manera exitosa la operacion, el sistema debe de mostrar un mensaje.
-- Si el libro ya se encuentra cargado en el sitema, debe de mostrarse un mensaje y se debe de cancelar la operacion.
+- De completarse de manera exitosa la operacion, el sistema debe de redirigir a la pantalla donde se encuentran los libros.
 - La informacion del libro debe de estar completa para poder subirse, en caso contrario, se debe de mostrar un mensaje, y cancelar la operacion.
 
 ---
@@ -77,13 +77,12 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
 **quiero**: ver una lista de catalogos y libros que estan disponibles.
 
-**para**: poder recomendar a los usuarios de la biblioteca.
+**para**: poder decirle  a los usuarios de la biblioteca que libros estan registrados y cuantos ejemplares.
 
 **Criterios de aceptacion**
 
-- el catalogo debe de estar creado, y los libros agregados al mismo.
+- El catalogo debe de estar creado, y los libros agregados al mismo.
 
-- los libros deben de estar disponibles, en caso contrario debe de mostrarse un mensaje de error
 
 ---
 
@@ -99,111 +98,67 @@ La aplicación está dedicada en un contexto de administracion de todos los apec
 
 **quiero**: quiero poder cargar la informacion referente a un nuevo cliente.
 
-**para**: poder tener un nuevo usuario cargado en el sistema y registrar sus alquileres de libros.
+**para**: poder tener un nuevo cliente cargado en el sistema, ver sus datos, editarlos y eliminarlos en caso de ser necesario.
 
 ### Criterios de Aceptacion
 
-- De completarse de manera exitosa la operacion, el sistema debe de mostrar un mensaje.
+- De completarse de manera exitosa la operación, el sistema debe de redirigir a la vista donde se encuentra la lista de clientes.
 - Si el cliente ya se encuentra cargado en el sitema, debe de mostrarse un mensaje y se debe de cancelar la operacion.
-- La informacion del cliente debe de estar completa para poder subirse, en caso contrario, se debe de mostrar un mensaje de alerta y cancelar la operacion.
+- En caso de querer guardar la infrmación con algun dato faltante o sin completar el sistema debe de mostrar un mensaje de error o alerta indicando que dato esta faltando o que datos es obligatorio.
 
 ---
-## HU4_Registrar Usuarios.
 
-### Actores Administrador
-
-**Objetivo** Realizar el alta de usuarios(empleados o administradores) al sistema.
-
-**como**: usuario administrador del sistema.
-
-**quiero**: quiero poder cargar la informacion referente a un nuevo usuario.
-
-**para**: poder tener un nuevo usuario Administrador o usuario Empleado en el sistema y asignarle algunos privilegios.
-
-### Criterios de Aceptacion
-
-- De completarse de manera exitosa la operacion, el sistema debe de mostrar un mensaje.
-- Si el usuario ya se encuentra cargado en el sitema, debe de mostrarse un mensaje indicando que el usuario ya se encuentra registrado y se debe de cancelar la operacion.
-- La informacion del usuario debe de estar completa para poder subirse, en caso contrario, se debe de mostrar un mensaje, y cancelar la operacion.
-
-
-
-## HU5_Prestamos y Reservaciones.
+## HU4_Prestamos y Reservaciones.
 
 ### Actores Administrador/Cliente
 
-**Objetivo** Realizar la operacion de prestamos de uno o varios libros
+**Objetivo** Realizar la operación de prestamos de uno o varios libros.
 
 **como**: usuario administrador del sistema.
 
 **quiero**: quiero poder asignarle libros a un cliente.
 
-**para**: poder tener un libro asiciado a un presto y el prestamo a un cliente
+**para**: poder tener un libro asiciado a un prestamo y el prestamo a un cliente.
 
 ### Criterios de Aceptacion
 
-- De completarse de manera exitosa la operacion, el sistema debe de mostrar un mensaje.
-- El libro debe de estar cargado en el sistema, estar diponible.
-- El cliente que quiera alquilar este libro debe de estar registado, no debe de tener deudas o entregas de libros pendientes.   
-- Solo se permitiran 2 alquileres de libros por cliente.
-
-
+- De completarse de manera exitosa la operacion, el sistema debe de redirijir a la vista de prestamos.
+- El libro debe de estar cargado en el sistema, debe de tener una cantidad para poder realizar los prestamos.
+- El cliente que quiera alquilar este libro debe de estar registado.
 
 ---
 
-## HU6_Realizar filtros por Estados y Categorias.
+## HU5_Realizar filtros por Estados y Categorías en la vista de los libros.
 
 ### Actores Administrador
 
-**Objetivo** Realizar la operacion de filtrado por categorias y estados de uno o varios libros
+**Objetivo** Realizar la operación de filtrado por categorías y estados de uno o varios libros
 
 **como**: usuario administrador del sistema.
 
 **quiero**: quiero poder filtrar libros.
 
-**para**: poder tener un libro filtrado por estado y categoria
+**para**: poder tener un libro filtrado por estados y categorías, según las preferencias de los clientes.
 
 ### Criterios de Aceptacion
 
-- De completarse de manera exitosa la operacion, el sistema debe de mostrar un mensaje.
-- El libro debe de estar cargado en el sistema, estar diponible.
-- La categoria debe de estar creda y asociada a un libro.
-- El estado debe de estar creada y asociado a un libro.
+- De completarse de manera exitosa la operación, el sistema debe de mostrar los resultados de los filtros.
+- El libro debe de estar cargado en el sistema.
+- La categoría debe de estar creda y asociada a un libro.
+- El estado debe de estar creado y asociado a un libro.
 
 ---
 ## Arquitectura
 
-- Editor de Código: Visual Studio Code/Atom
-- Versionado: GitHub
-- Otras herramientas: Boostrap, Html, Css, JavaScript
-- Documentación: Markdown
-- Frameworck: Laravel/Version 5.8
-- Lenguaje: PHP
+- Editor de Código: Visual Studio Code/Atom.
+- Versionado: GitHub.
+- Otras herramientas: Boostrap, Html, Css, JavaScript.
+- Documentación: Markdown.
+- Frameworck: Laravel/Version 5.8.
+- Lenguaje: PHP.
 - Arquitectura: Cliente/Servidor.
+- Plantilla Administrativa: Admin LTE 3.0.0. y Template Nifty.
 
 ---
 ## Bocetos de interfaces de usuarios 
 
-![](/figuras/LOGIN.png)
-
-![](/figuras/home.png)
-
-![](/figuras/crear1.png)
-
-![](/figuras/crear2.png)
-
-![Catalogo](/figuras/catalogo.jpg)
-
-![](/figuras/Lista.png)
-
-![](/figuras/clientes1.png)
-
-![](/figuras/clientes2.png)
-
-![](/figuras/categorias1.png)
-
-![](/figuras/categorias2.png)
-
-![](/figuras/prestamo.png)
-
-![](/figuras/prestamoss.png)

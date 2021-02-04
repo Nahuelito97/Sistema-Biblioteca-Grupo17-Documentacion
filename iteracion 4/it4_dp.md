@@ -5,12 +5,19 @@
 ![Diagrama](/figuras/Modelo%20de%20Dominio%20Biblioteca3.vpd.png)
 ---
 
-## Backlog de la iteracion
+## Backlog de la iteración
 
-- Aplicar filtros a los libros por Categorias y por Estados.
+- Aplicar filtros a los libros por Categorías y por Estados.
+- Agregar filtros de busqueda en las siguientes secciones: Libros, Clientes.
 - Mejorar las vistas.
+- Se agrego la plantilla Admin LTE en su versión 3.0.0.
+- También se están usando DataTables, los cuales ya cuentan con una funcinalidad de busqueda y paginación.
+
 
 
 ## Tareas
 
-- Realizar los métodos en el controlador.
+- Realizar los métodos en el controlador de libros.
+- Agregar los métodos en los controladores de Categorías, Clientes.
+- Se agregaron algunas secciones de la pantilla Admin LTE, al sistema.
+- Se agregaron las funcionalidades del plugin DataTables.

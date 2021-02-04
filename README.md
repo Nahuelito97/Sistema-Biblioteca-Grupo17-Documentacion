@@ -6,7 +6,7 @@
 
 **Con el siguiente sistema les proponemos lo siguiente:**
 
-Los libros podrán se alquilados, el administrador podrá ingresar y ver una lista de los libros que están disponibles, cargar nuevos libros, generar clientes, un control de estados de los libros(disponible o inactivo)además posee un control de catálogos el cual tendrá las siguientes secciones:
+Los libros podrán se alquilados mediante un prestamo, el administrador podrá ingresar y ver una lista de los libros que están disponibles, cargar nuevos libros, generar clientes, un control de la cantidad de libros que siguen disponibles, además posee un control de catálogos el cual tendrá las siguientes secciones:
 
   - Fechas de publicaciones
   - Autores

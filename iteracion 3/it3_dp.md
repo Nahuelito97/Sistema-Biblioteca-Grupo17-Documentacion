@@ -16,7 +16,7 @@
 
 ## Tareas
 
-- Para crear la seccion de catálogos, los libros deben de etar guardados y asocidos a una categoría
+- Para crear la seccion de catálogos, los libros deben de estar guardados y asocidos a una categoría
 - Para editar una Categoría, la Categoría debe de estar creada.
 - Para editar un Estado,  debe de estar creado.
 - Para editar un Cliente, El cliente debe de estar registrado.
