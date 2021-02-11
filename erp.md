@@ -32,7 +32,7 @@ Desarrollaremos un sistema que permita a la biblioteca administrar la misma, que
 
 ## Análisis de dominio
 
-La aplicación está diseñada en un contexto de, administracion para una biblioteca, asi mismo poder ralizar prestaos de libros.
+La aplicación está diseñada en un contexto de, administracion para una biblioteca, asi mismo poder ralizar prestamos de libros.
 
 ---
 
