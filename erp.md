@@ -20,7 +20,7 @@ Desarrollaremos un sistema que permita a la biblioteca administrar la misma, que
 - El sistema debera permitir cargar libors.
 - El sistema debera permitir filtar los libros por categorias y por estados.
 - Explorar catálogo.
-- El sistema debera permitir asignar un estado a un libro.
+- El sistema debera permitir asignar un estado(nuevo, usado o deteriorado) a un libro.
 - El sistema debera permitir asignar una categoria a un libro.
 - El sistema debe de permitir registrar clientes.
 - Prestamos de libros según los gustos de los usuarios.
@@ -37,7 +37,9 @@ La aplicación está diseñada en un contexto de, administracion para una biblio
 ---
 
 
-# Sección del Planteamiento del sistema B-Genius.
+# Sección 1:
+
+## Planificación del sistema B-Genius.
 
 
 ## Historias de usuario
@@ -160,5 +162,80 @@ La aplicación está diseñada en un contexto de, administracion para una biblio
 - Plantilla Administrativa: Admin LTE 3.0.0. y Template Nifty.
 
 ---
-## Bocetos de interfaces de usuarios 
 
+# Sección 2:
+## Interfaces graficas de usuarios de B-Genius | Admin. 
+
+---
+
+### Pagina de Bienvenida.
+
+![](/figuras/pagina%20de%20bienvenida+.jpg)
+
+### Pagina de Login/Inicio de Sesión.
+
+![](/figuras/pagina%20login.jpg)
+
+
+### Secciones Administrativas.
+
+![](/figuras/home.jpg)
+## Secciones.
+
+![](/figuras/secciones.jpg)
+
+### Secciones de Categorías y lista de Categorías.
+
+![](/figuras/categorias1.jpg)
+
+![](/figuras/categorias2.jpg)
+
+### Secciones para crear nuevas Categoías.
+
+
+![](/figuras/categorias3.jpg)
+
+
+### Secciones de Clientes y lista de Clientes.
+
+![](/figuras/clientes1.jpg)
+
+![](/figuras/clientes3.jpg)
+### Secciones para crear nuevos Clientes.
+
+![](/figuras/clientes2.jpg)
+
+
+### Secciones de Libros y Lista de Libros.
+
+![](/figuras/libros.jpg)
+
+![](/figuras/libros1.jpg)
+
+### Sección para crear nuevos libros.
+
+![](/figuras/libros2.jpg)
+### Sección para editár libros.
+
+![](/figuras/libros3.jpg)
+
+
+
+### Secciones de Prestámos y Lista de Prestámos.
+
+![](figuras/prestamos.jpg)
+
+![](figuras/prestamos2.jpg)
+
+### Sección para crear nuevos Prestámos.
+
+![](/figuras/prestamos1.jpg)
+
+
+
+
+
+
+
+
+### Estas son capturas de las vistas del sistema, de cada una de las secciones. Para explicar mejor su funcionamiento se hara un video,

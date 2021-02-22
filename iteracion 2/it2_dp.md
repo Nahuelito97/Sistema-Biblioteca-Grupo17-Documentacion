@@ -1,14 +1,10 @@
-# Iteracion 2
-
-este modelo de dominio esta sujeto a cambios.
-
-![Diagrama](/figuras/MD.png)
+# Iteración 2
 
 ---
 
-## Backlog de la  segunda iteracion
+## Backlog de la  segunda iteración
 
-**Backlog de la segunda iteracion**
+**Backlog de la segunda iteración**
 
 
 ![](/figuras/backlogggg.png)
@@ -68,4 +64,3 @@ este modelo de dominio esta sujeto a cambios.
 
 - Para poder crear un nuevo cliente los datos del mismo deben de estar completos y asi poder ser registrado.
 - Para poder ralizar un prestamo, el cliente y el libro deben de estar registrados en el sistema.
-- El clinete en caso de ya estar registado no debe de tener deudas pendientes.
