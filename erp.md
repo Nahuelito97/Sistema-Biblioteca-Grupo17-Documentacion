@@ -238,4 +238,4 @@ La aplicación está diseñada en un contexto de, administracion para una biblio
 
 
 
-### Estas son capturas de las vistas del sistema, de cada una de las secciones. Para explicar mejor su funcionamiento se hara un video,
+### Estas son capturas de las vistas del sistema, de cada una de las secciones. Para explicar mejor su funcionamiento se hara un video.
