@@ -10,18 +10,18 @@
 
 ## Visión
 
-Desarrollaremos un sistema que permita a la biblioteca administrar la misma, que permita al administrador poder generar nuevos usuarios, elminarlos, crear catálogos, realizar prestamos de los libros que mas le agraden a los clientes.
+Desarrollaremos un sistema que permitira a la biblioteca administrar la misma, que permita al administrador poder generar nuevos usuarios, elminarlos, crear catálogos, realizar prestamos de los libros que mas le agraden a los clientes.
 
 ---
 
 
 ## Lista de características
 
-- El sistema debera permitir cargar libors.
-- El sistema debera permitir filtar los libros por categorias y por estados.
+- El sistema debera permitir cargar libros.
+- El sistema debera permitir filtar los libros por categorías y por estados.
 - Explorar catálogo.
 - El sistema debera permitir asignar un estado(nuevo, usado o deteriorado) a un libro.
-- El sistema debera permitir asignar una categoria a un libro.
+- El sistema debera permitir asignar una categorÍa a un libro.
 - El sistema debe de permitir registrar clientes.
 - Prestamos de libros según los gustos de los usuarios.
 - El sistema deberá permitir modificar los datos de un Cliente.
