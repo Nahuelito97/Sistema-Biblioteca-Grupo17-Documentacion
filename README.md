@@ -23,4 +23,4 @@ El sistema también permitirá saber el estado de los ejemplares, es decir, nuev
 por custiones de tiempo he tomado la decicion de acortar el alcance de este sistema, pudiendo asi llegar con las cuestiones que quedaran plantedas para el desarrollo
 
 Link del repositorio del Proyecto.
-- https://github.com/Nahuelito97/Grupo-17-SistemaBiblioteca-Poo2
+- https://github.com/Nahuelito97/B-GeniusApp
